@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="239.0" prefWidth="214.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SegmentDialogController">
+   <children>
+      <Label layoutX="21.0" layoutY="77.0" text="id">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="18.0" />
+         </font></Label>
+      <Label layoutX="79.0" layoutY="22.0" text="Add Segment">
+         <font>
+            <Font name="Times New Roman Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="112.0" text="t">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="23.0" layoutY="146.0" text="ψ">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="idS" editable="false" focusTraversable="false" layoutX="47.0" layoutY="71.0" prefHeight="25.0" prefWidth="142.0" />
+      <TextField fx:id="tS" layoutX="47.0" layoutY="107.0" prefHeight="25.0" prefWidth="142.0" />
+      <TextField fx:id="psiS" layoutX="47.0" layoutY="143.0" prefHeight="25.0" prefWidth="142.0" />
+      <Button layoutX="118.0" layoutY="189.0" mnemonicParsing="false" onAction="#addSegment" prefHeight="33.0" prefWidth="66.0" text="add">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

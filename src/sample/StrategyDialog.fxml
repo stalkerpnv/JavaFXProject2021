@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="351.0" prefWidth="234.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.StrategyDialogController">
+   <children>
+      <Label layoutX="37.0" layoutY="27.0" text="Strategy Settings">
+         <font>
+            <Font name="Times New Roman Italic" size="22.0" />
+         </font></Label>
+      <Label fx:id="labelOfStrategy" layoutX="41.0" layoutY="59.0" text="number of strategy">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelForT1" layoutX="30.0" layoutY="89.0" text="t1">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="129.0" layoutY="278.0" mnemonicParsing="false" onAction="#calcAndCreatePursuers" prefHeight="43.0" prefWidth="76.0" text="set">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font></Button>
+      <TextField fx:id="valueT1" focusTraversable="false" layoutX="65.0" layoutY="87.0" prefHeight="25.0" prefWidth="102.0" />
+      <TextField fx:id="valueT2" focusTraversable="false" layoutX="65.0" layoutY="118.0" prefHeight="25.0" prefWidth="102.0" visible="false" />
+      <TextField fx:id="valueT3" focusTraversable="false" layoutX="65.0" layoutY="152.0" prefHeight="25.0" prefWidth="102.0" visible="false" />
+      <Label fx:id="labelForT2" layoutX="30.0" layoutY="121.0" text="t2" visible="false">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelForT3" layoutX="30.0" layoutY="155.0" text="t3" visible="false">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelForMessage" layoutX="43.0" layoutY="214.0" textFill="#c60505">
+         <font>
+            <Font name="Times New Roman Italic" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
